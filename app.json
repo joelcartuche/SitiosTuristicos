@@ -1,0 +1,22 @@
+{
+  "addons": [
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "description": "nuevo",
+  "env": {
+    "DISABLE_COLLECTSTATIC": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "name": "SitiosTuristicos",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}
