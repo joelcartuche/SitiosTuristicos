@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     'app.Provincia',
     'app.Zonas_turisticas',
     'app.servicio_web',
-    'rest_framework'
+    'rest_framework',
+    
 ]
 
 MIDDLEWARE = [
